@@ -1,0 +1,212 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+   font-size: 66px;  font-weight: 600px; line-height: 80px; 
+} h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 18px;
+    color: #999999;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+section{
+    padding: 120px 0;
+}
+
+.topmargin-xs{
+    margin-top: 15px;
+}.topmargin-sm{
+    margin-top: 30px;
+}.topmargin-lg{
+    margin-top: 60px;
+}
+
+.btn{
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 2px;
+    display: inline-block;
+}
+
+.btn-light{
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border: 2px solid #ffffff;
+}
+
+.btn-dark{
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border: 2px solid #1a1a1a;
+    
+}
+
+.btn i{
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.text-dark{
+    color: #1a1a1a;
+}
+
+.navbar{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, -25);
+    min-height: 100px;
+}
+
+.nav-link{
+    color: #1a1a1a; 
+}
+
+.navbar-toggler{
+    font-size: 40px;
+}
+.navbar-toggler:focus{
+outline: none;
+}
+
+#hero{
+    background-image: url('images/baleada-hondurena_70589-4.jpg');
+    background-size: cover;
+    border: #1a1a1a;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #ffffff;
+}
+
+#hero p {
+    color: #ffffff;
+}
+
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}   
+
+.portfolio-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.portfolio-container img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+
+}
+
+.portfolio-container:hover img {
+    -moz-transform : scale(1.2) ;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+.portfolio-details{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+
+}
+
+.portfolio-details h2{
+    margin-bottom: 0px;
+}
+
+.portfolio-details a h2, .portfolio-details a p {
+    color: #ffffff;
+} 
+
+.pricing-container{
+    margin: 15px 0;
+}
+
+.plans{
+    padding: 45px 70px;
+    border-radius: 2px;
+    min-width: 400px;
+}
+
+.plan-light{
+    background-color: #ffffff;
+    border: 2px solid #1a1a1a;
+}
+
+.plan-dark{
+    background-color: #1a1a1a;
+    border: 2px solid #1a1a1a;
+    color: #ffffff;
+}  
+
+form{
+    background: #fff;
+    width: 30%;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+}
+
+.form{
+    width: 100%;
+    margin: auto;
+}
+
+form .grupo{
+    position: relative;
+    margin: 45px;
+}
+
+button{
+    
+    display: block;
+    width: 100px;
+    height: 40px;
+    border:none;
+    color: #999999; 
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 575.98px) { 
+   h1 {
+       font-size: 40px; line-height: normal;}
+       .portfolio-details h2{font-size: 32px;}
+ .plans{ min-width: unset; padding: 40px;
+}  }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) {} 
+
